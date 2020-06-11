@@ -75,6 +75,24 @@ a {
     width: 100%;
 }
 
+details > summary {
+    cursor: pointer;
+    font-size: 24px;
+    outline: none;
+    font-weight: bold;
+}
+
+details {
+    width: 85%;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+details > div {
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
 #menu_separator {
     border: 0;
     height: 1px;
