@@ -75,6 +75,11 @@ a {
     width: 100%;
 }
 
+td {
+    padding-right: 30px;
+    padding-bottom: 0;
+}
+
 details > summary {
     cursor: pointer;
     font-size: 20px;
