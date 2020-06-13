@@ -112,3 +112,13 @@ details > div {
 #social_media li {
     display: inline;
 }
+
+#image_li {
+    padding: 0;
+    list-style: none;
+    margin-left: 25px;
+}
+
+#image_li li {
+    padding: 3px;
+}
