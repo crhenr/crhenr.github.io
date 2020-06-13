@@ -75,6 +75,15 @@ a {
     width: 100%;
 }
 
+.file_link a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.file_link a:hover {
+    text-decoration: underline;
+}
+
 td {
     padding-right: 30px;
     padding-bottom: 0;
