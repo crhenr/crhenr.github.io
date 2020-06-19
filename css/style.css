@@ -39,7 +39,6 @@ a {
 }
 
 .vertical_menu img {
-    width: 65%;
     border-radius: 100%;
     border: 5px solid #FFFFFF;
 }
@@ -130,4 +129,13 @@ details > div {
 
 #image_li li {
     padding: 3px;
+}
+
+#copyright {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 50px;
+    font-size: 14px;
+    bottom: 0;
 }
