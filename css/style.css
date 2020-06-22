@@ -122,14 +122,21 @@ details > div {
     display: inline;
 }
 
-#image_li {
+.image_li {
     padding: 0;
     list-style: none;
-    margin-left: 25px;
 }
 
-#image_li li {
-    padding: 3px;
+.image_li ul li, img {
+    vertical-align: middle;
+}
+
+.image_li b {
+    margin-left: 15px;
+}
+
+.bio_content {
+    margin-left: 25px;
 }
 
 #copyright {
