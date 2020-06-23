@@ -21,7 +21,7 @@
     </head>
 
     <body>
-        <div class="vertical_menu">
+        <div class="menu">
             <center>
                 <img src="imgs/personal_photos/profilepic.jpeg"/>
                 <h1>Cristian Souza</h1>
@@ -30,7 +30,7 @@
 
             <hr id="menu_separator"/>
 
-            <div class="pages_menu">
+            <div class="menu_links">
                 <a href="index.html">Home</a>
                 <a href="bio.html">Bio</a>
                 <a href="projects.html">Projects</a>
@@ -41,29 +41,36 @@
             <p id="copyright">Copyright © Cristian Souza</p>
         </div>
 
-        <div class="main">
-            <h2>Conference presentations</h2>
-            <div class="file_link">
-                <a target="_blank" href="files/talks/phishkiller.pdf"><b>[PDF] 2019 - PhishKiller: Uma Ferramenta para Detecção e Mitigação de Ataques de Phishing Através de Técnicas de Deep Learning</b></a>(Portuguese)
-                <br/>
-                Conference location: São Paulo, Brazil.
-            </div>
+        <main>
+            <section id="presentations">
+                <h2>Conference presentations</h2>
+                <div class="sec_content">
+                    <div class="file_link">
+                        <a target="_blank" href="files/talks/phishkiller.pdf"><b>[PDF] 2019 - PhishKiller: Uma Ferramenta para Detecção e Mitigação de Ataques de Phishing Através de Técnicas de Deep Learning</b></a>(Portuguese)
+                        <br/>
+                        Conference location: São Paulo, Brazil.
+                    </div>
 
-            <br/>
+                    <div class="file_link">
+                        <a target="_blank" href="files/talks/ftc2018.pdf"><b>[PDF] 2018 - Embedded System for Access Control Based on Facial Biometry and RFID</b></a>
+                        <br/>
+                        Conference location: Vancouver, Canada.
+                    </div>
+                </div>
+            </section>
 
-            <div class="file_link">
-                <a target="_blank" href="files/talks/ftc2018.pdf"><b>[PDF] 2018 - Embedded System for Access Control Based on Facial Biometry and RFID</b></a>
-                <br/>
-                Conference location: Vancouver, Canada.
-            </div>
+            <section id="workshops">
+                <h2>Workshops</h2>
+                <div class="sec_content">
+                    <div class="file_link">
+                        <a target="_blank" href="files/workshops/docker.pdf"><b>[PDF] 2018 - Docker introduction</b></a>(Portuguese)
+                    </div>
+                </div>
+            </section>
 
-            <h2>Workshops</h2>
-            <div class="file_link">
-                <a target="_blank" href="files/workshops/docker.pdf"><b>[PDF] 2018 - Docker introduction</b></a>(Portuguese)
-                <br/>
-            </div>
-
-            <h2>Other files</h2>
-        </div>
+            <section id="files">
+                <h2>Other files</h2>
+            </section>
+        </main>
     </body>
 </html>

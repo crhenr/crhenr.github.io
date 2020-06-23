@@ -21,7 +21,7 @@
     </head>
 
     <body>
-        <div class="vertical_menu">
+        <div class="menu">
             <center>
                 <img src="imgs/personal_photos/profilepic.jpeg"/>
                 <h1>Cristian Souza</h1>
@@ -30,7 +30,7 @@
 
             <hr id="menu_separator"/>
 
-            <div class="pages_menu">
+            <div class="menu_links">
                 <a href="index.html">Home</a>
                 <a href="bio.html">Bio</a>
                 <a href="#" class="active">Projects</a>
@@ -41,49 +41,53 @@
             <p id="copyright">Copyright © Cristian Souza</p>
         </div>
 
-        <div class="main">
-            <h2>Research Projects</h2>
-            <details>
-                <summary>[2019 - 2020] Phishing Detection and Mitigation Using Artificial Intelligence Techniques</summary>
-                <div>
-                    <b>Description: </b>The expansion of the Internet provided human beings with numerous facilities, such as the possibility of communicating over long distances, shopping, and online banking. However, this expansion also brought new possibilities for fraudulent actions. Among these actions, we highlight phishing attacks, created to capture user credentials through a page similar to the original one. Therefore, the purpose of this work is to develop a mechanism to prevent this type of attack and ensure the security of users' data.
-                </div>
-            </details>
+        <main>
+            <section id="rsprojects">
+                <h2>Research Projects</h2>
+                <div class="sec_content">
+                    <details>
+                        <summary>[2019 - 2020] Phishing Detection and Mitigation Using Artificial Intelligence Techniques</summary>
+                        <div>
+                            <b>Description: </b>The expansion of the Internet provided human beings with numerous facilities, such as the possibility of communicating over long distances, shopping, and online banking. However, this expansion also brought new possibilities for fraudulent actions. Among these actions, we highlight phishing attacks, created to capture user credentials through a page similar to the original one. Therefore, the purpose of this work is to develop a mechanism to prevent this type of attack and ensure the security of users' data.
+                        </div>
+                    </details>
 
-            <details>
-                <summary>[2019 - 2019] Slow Attacks on Software-Defined Networks</summary>
-                <div>
-                    <b>Description: </b>The Software-Defined Networking paradigm revolutionized the way of managing computer network infrastructures since it is possible to obtain a higher degree of programmability in it, due to the separation of the data plane from the control plane. However, the memory used to store the rules by the switches, called Ternary Content-Addressable Memory (TCAM) has a high cost and, therefore, there is little storage space available. Several attacks have been developed to consume the resources of this memory and cause unavailability on the network, such as saturation attacks. Also, slow attacks have been occurring frequently in recent years, the main characteristic of this kind of attack is to open several sessions with the target device and keep them open for a long time, generating almost imperceptible malicious traffic and making it difficult to identify the threat. Therefore, the present work aims to study the main techniques of slow attacks and develop a mechanism for their detection and mitigation.
-                </div>
-            </details>
+                    <details>
+                        <summary>[2019 - 2019] Slow Attacks on Software-Defined Networks</summary>
+                        <div>
+                            <b>Description: </b>The Software-Defined Networking paradigm revolutionized the way of managing computer network infrastructures since it is possible to obtain a higher degree of programmability in it, due to the separation of the data plane from the control plane. However, the memory used to store the rules by the switches, called Ternary Content-Addressable Memory (TCAM) has a high cost and, therefore, there is little storage space available. Several attacks have been developed to consume the resources of this memory and cause unavailability on the network, such as saturation attacks. Also, slow attacks have been occurring frequently in recent years, the main characteristic of this kind of attack is to open several sessions with the target device and keep them open for a long time, generating almost imperceptible malicious traffic and making it difficult to identify the threat. Therefore, the present work aims to study the main techniques of slow attacks and develop a mechanism for their detection and mitigation.
+                        </div>
+                    </details>
 
-            <details>
-                <summary>[2019 - 2019] Detection of Wrongdoers by Machine Learning-based Facial Recognition</summary>
-                <div>
-                    <b>Description: </b>With the rise in crime nowadays, especially in less developed countries, accurate identification of wrongdoers is a recurring problem. Therefore, every day human beings seek automated ways to identify unique patterns in each individual, to increase the accuracy of searches, and reduce error rates. Inevitably, the use of facial recognition becomes an important ally for the identification of offenders, as it is a discreet, fast, and highly accurate method. However, systems of this size still have high prices and violations of citizens' privacy. Therefore, the purpose of this work is to develop a low cost and high-performance system for identifying criminals using advanced machine learning algorithms for facial recognition.
-                </div>
-            </details>
+                    <details>
+                        <summary>[2019 - 2019] Detection of Wrongdoers by Machine Learning-based Facial Recognition</summary>
+                        <div>
+                            <b>Description: </b>With the rise in crime nowadays, especially in less developed countries, accurate identification of wrongdoers is a recurring problem. Therefore, every day human beings seek automated ways to identify unique patterns in each individual, to increase the accuracy of searches, and reduce error rates. Inevitably, the use of facial recognition becomes an important ally for the identification of offenders, as it is a discreet, fast, and highly accurate method. However, systems of this size still have high prices and violations of citizens' privacy. Therefore, the purpose of this work is to develop a low cost and high-performance system for identifying criminals using advanced machine learning algorithms for facial recognition.
+                        </div>
+                    </details>
 
-            <details>
-                <summary>[2018 - 2018] Embedded System for Access Control Based on Facial Biometry and RFID</summary>
-                <div>
-                    <b>Description: </b>With the constant technological evolution, every day human beings look for automated ways to guarantee the safety of certain places. Inevitably, the use of face recognition becomes an important mechanism for access control, since each person has practically unique facial features. However, it is also necessary to develop tools together for validation of these faces, to ensure that the present user is authentic, not just an image or video being transmitted. Besides, we note the high cost of such products in the market. Therefore, this work proposes to develop an embedded system for access control with low cost, and that meets all the requirements for correct identification and validation of faces.
-                </div>
-            </details>
+                    <details>
+                        <summary>[2018 - 2018] Embedded System for Access Control Based on Facial Biometry and RFID</summary>
+                        <div>
+                            <b>Description: </b>With the constant technological evolution, every day human beings look for automated ways to guarantee the safety of certain places. Inevitably, the use of face recognition becomes an important mechanism for access control, since each person has practically unique facial features. However, it is also necessary to develop tools together for validation of these faces, to ensure that the present user is authentic, not just an image or video being transmitted. Besides, we note the high cost of such products in the market. Therefore, this work proposes to develop an embedded system for access control with low cost, and that meets all the requirements for correct identification and validation of faces.
+                        </div>
+                    </details>
 
-            <details>
-                <summary>[2018 - 2018] Security Aspects in Multi-Domain Resource Slicing of Future Cloud Networking</summary>
-                <div>
-                    <b>Description: </b>Cloud slicing allows the existence of multiple virtual infrastructures, called virtual slices, on top of the physical infrastructure of federated data centers, each one specially adapted to the needs of the tenants. Although cloud-slicing makes services and networks more agile and responsive to users' business requirements, it adds new security concerns because of how physical resources are shared between slices and how isolation is held. Therefore, the purpose of this work is to propose a methodology to increase security levels in federated cloud platforms defined by resource slices, which exploits virtualization technologies to enable secure resource sharing and isolation, management of heterogeneous security policies, and the provision of risk mitigation actions using the Software-Defined Networking (SDN) and Network Functions Virtualization (NFV) technologies.
-                </div>
-            </details>
+                    <details>
+                        <summary>[2018 - 2018] Security Aspects in Multi-Domain Resource Slicing of Future Cloud Networking</summary>
+                        <div>
+                            <b>Description: </b>Cloud slicing allows the existence of multiple virtual infrastructures, called virtual slices, on top of the physical infrastructure of federated data centers, each one specially adapted to the needs of the tenants. Although cloud-slicing makes services and networks more agile and responsive to users' business requirements, it adds new security concerns because of how physical resources are shared between slices and how isolation is held. Therefore, the purpose of this work is to propose a methodology to increase security levels in federated cloud platforms defined by resource slices, which exploits virtualization technologies to enable secure resource sharing and isolation, management of heterogeneous security policies, and the provision of risk mitigation actions using the Software-Defined Networking (SDN) and Network Functions Virtualization (NFV) technologies.
+                        </div>
+                    </details>
 
-            <details>
-                <summary>[2016 - 2017] Automatic License Plate Recognition System</summary>
-                <div>
-                    <b>Description: </b>This project proposes an embedded system capable of extracting the text of a license plate through Optical Character Recognition (OCR) using low-cost hardware. The developed system is also able to query a Brazilian national database to identify the status of the vehicle and driver.
+                    <details>
+                        <summary>[2016 - 2017] Automatic License Plate Recognition System</summary>
+                        <div>
+                            <b>Description: </b>This project proposes an embedded system capable of extracting the text of a license plate through Optical Character Recognition (OCR) using low-cost hardware. The developed system is also able to query a Brazilian national database to identify the status of the vehicle and driver.
+                        </div>
+                    </details>
                 </div>
-            </details>
-        </div>
+            </section>
+        </main>
     </body>
 </html>
