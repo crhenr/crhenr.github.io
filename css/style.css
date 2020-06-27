@@ -149,3 +149,27 @@ details > div {
 .file_link a:hover {
     text-decoration: underline;
 }
+
+/* projects.html */
+
+.ghrepo {
+    display: inline-block;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    height: 80px;
+    margin-bottom: 4px;
+}
+
+.ghrepo:hover h3 {
+    text-decoration: underline;
+}
+
+.ghrepo h3 {
+    margin: 0;
+}
+
+.ghrepo span {
+    float: right;
+}
