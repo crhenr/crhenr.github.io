@@ -135,6 +135,7 @@ details > div {
 
 #social_media li {
     display: inline;
+    margin-left: 5px;
 }
 
 /* files.html */
