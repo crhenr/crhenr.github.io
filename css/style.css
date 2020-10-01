@@ -12,6 +12,14 @@ body {
     url("../fonts/source-sans-pro-v13-latin-300.ttf") format("truetype");
 }
 
+::-moz-selection {
+    background: #81a1c1;
+}
+
+::selection {
+    background: #81a1c1;
+}
+
 main {
     margin-left: 250px;
     font-size: 18px;
