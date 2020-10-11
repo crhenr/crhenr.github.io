@@ -49,8 +49,7 @@ details {
 }
 
 details > div {
-    margin-top: 8px;
-    margin-left: 30px;
+    margin: 5px 0 25px 30px;
 }
 
 .content_separator {
