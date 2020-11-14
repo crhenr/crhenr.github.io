@@ -6,10 +6,11 @@ body {
 }
 
 @font-face {
-  font-family: "Source Sans Pro";
-  src: url("../fonts/source-sans-pro-v13-latin-300.woff2") format("woff2"),
-    url("../fonts/source-sans-pro-v13-latin-300.woff") format("woff"),
-    url("../fonts/source-sans-pro-v13-latin-300.ttf") format("truetype");
+    font-family: "Source Sans Pro";
+    src: url("../fonts/source-sans-pro-v13-latin-300.woff2") format("woff2"),
+         url("../fonts/source-sans-pro-v13-latin-300.woff") format("woff"),
+         url("../fonts/source-sans-pro-v13-latin-300.ttf") format("truetype");
+    font-display: swap;
 }
 
 ::-moz-selection {
