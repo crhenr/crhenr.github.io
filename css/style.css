@@ -1,4 +1,9 @@
 /* Generic settings */
+
+html {
+    scrollbar-color: #4c566a #2e3440;
+}
+
 body {
     font-family: "Source Sans Pro";
     padding: 1%;
@@ -19,6 +24,18 @@ body {
 
 ::selection {
     background: #81a1c1;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #2e3440;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #4c566a;
 }
 
 main {
