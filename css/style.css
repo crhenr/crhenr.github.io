@@ -141,15 +141,6 @@ details > div {
     border-color: #eceff4;
 }
 
-#made_by {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    line-height: 50px;
-    font-size: 14px;
-    bottom: 0;
-}
-
 /* index.html */
 #about h1 {
     font-size: 34px;
