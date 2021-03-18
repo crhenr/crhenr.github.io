@@ -103,6 +103,7 @@ details > div {
 .menu_links a {
     display: inline-block;
     margin-right: 5px;
+    margin-bottom: 8px;
     padding: 8px;
     border-radius: 5%;
     transition: color .35s, background .35s;
@@ -184,12 +185,18 @@ details > div {
 
 .ghrepo {
     display: inline-block;
-    border: 1px solid #d8dee9;
+    background-color: #434c5e;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     width: 400px;
     height: 80px;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
+    margin-right: 8px;
+    transition: background .35s;
+}
+
+.ghrepo:hover {
+    background-color: #242933;
 }
 
 .ghrepo:hover h3 {
