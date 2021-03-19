@@ -55,13 +55,12 @@ a:hover {
 }
 
 td {
-    padding-right: 30px;
-    padding-bottom: 0;
+    padding: 0 35px 3px 0;
 }
 
 details > summary {
-    cursor: pointer;
     font-size: 20px;
+    cursor: pointer;
     outline: none;
     font-weight: bold;
 }
@@ -77,15 +76,15 @@ details > div {
 }
 
 .menu {
-    background-color: #242933;
-    position: fixed;
     width: 320px;
     height: 100%;
+    position: fixed;
     z-index: 1;
-    overflow-x: hidden;
-    padding-top: 50px;
     top: 0;
     left: 0;
+    overflow-x: hidden;
+    padding-top: 50px;
+    background-color: #242933;
 }
 
 .menu ul {
@@ -99,24 +98,18 @@ details > div {
 }
 
 .menu_links {
-    width: 100%;
-    padding-top: 25px;
     text-align: center;
+    padding: 35px 0 50px 0;
 }
 
 .menu_links a {
-    display: inline-block;
-    margin-right: 5px;
-    margin-bottom: 8px;
+    margin: 0 5px 8px 0;
     padding: 8px;
     border-radius: 5%;
-    transition: color .35s, background .35s;
     color: inherit;
+    display: inline-block;
     text-decoration: none;
-}
-
-.sm_links {
-    padding-top: 50px;
+    transition: background .35s;
 }
 
 .menu_links a:hover, a.active {
@@ -147,12 +140,15 @@ details > div {
 }
 
 /* index.html */
+#about {
+    padding-bottom: 20px;
+}
+
 #about h1 {
     font-size: 34px;
 }
 
 #social_media {
-    list-style-type: none;
     text-align: center;
 }
 
@@ -178,16 +174,14 @@ details > div {
 }
 
 /* projects.html */
-
 .ghrepo {
-    display: inline-block;
-    background-color: #434c5e;
-    border-radius: 5px;
-    padding: 15px;
     width: 400px;
     height: 80px;
-    margin-bottom: 12px;
-    margin-right: 8px;
+    padding: 15px;
+    margin: 0 8px 12px 0;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #434c5e;
     transition: background .35s;
 }
 
